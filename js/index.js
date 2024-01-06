@@ -6,7 +6,7 @@ function fadeIn() {
     var fade = document.getElementById("div1"); 
     var fade2 = document.getElementById("div1.1");
     var fade3 = document.getElementById("input1");
-    var fade4 = document.getElementById("div2");
+    
 
     var opacity = 0; 
     var intervalID = setInterval(function() { 
@@ -55,6 +55,9 @@ var input = document.getElementById("input1");
 input.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
 
+    var sound1 = document.getElementById("myaudio");
+    sound1.play()
+      
     username = document.getElementById("input1").value;
     document.getElementById("div1.2").textContent = `Hello ${username}. What truth would you like to know about yourself?`
 
