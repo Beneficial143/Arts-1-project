@@ -1,11 +1,7 @@
 body {
-    /* cursor: url(pen.png), default !important; */
-    /* cursor: url('c.cur') default !important; */
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
-    /* height: 100vh; */
     margin: 0;
     padding: 0; 
 }
@@ -13,6 +9,7 @@ body {
   div {
     font-size: 18pt;
     font-family: aquilinetworegular, papyrus, serif;
+ 
   }
 
 #div1 {

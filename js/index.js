@@ -6,7 +6,7 @@ function fadeIn() {
     var fade = document.getElementById("div1"); 
     var fade2 = document.getElementById("div1.1");
     var fade3 = document.getElementById("input1");
-    var fade4 = document.getElementById("div2");
+
 
     var opacity = 0; 
     var intervalID = setInterval(function() { 
@@ -72,6 +72,9 @@ input.addEventListener("keypress", function(event) {
         } 
     }, 200); 
 
+    var sound1 = document.getElementById("myaudio");
+    sound1.play()
+    
     var fade6 = document.getElementById("hp");
     var opacity6 = 0;
     var intervalID6 = setTimeout(() => {setInterval(function() { 
