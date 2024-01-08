@@ -6,11 +6,7 @@ function fadeIn() {
     var fade = document.getElementById("div1"); 
     var fade2 = document.getElementById("div1.1");
     var fade3 = document.getElementById("input1");
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 6139d23919b1323f34a999de7a41ff538b178c5f
 
     var opacity = 0; 
     var intervalID = setInterval(function() { 
